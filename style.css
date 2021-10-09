@@ -1,0 +1,15 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #3db2ff;
+}
+
+#blog {
+  background-color: #3db2ff;
+}
+
+section {
+  padding-top: 5rem;
+}
