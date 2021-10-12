@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css" />
@@ -68,10 +71,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Halo, saya Naufal Andresya Kholish. Seorang videografer dan fotografer yang kebetulan suka dengan dunia programming. Sedang sibuk menikmati hidup dengan cara menjadi mahasiswa.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Saya mengambil jurusan Teknik Informatika di Universitas Gunadarma dan lulus SMK Mitra Industri jurusan Teknik Elektro tepat pada tahun ini. Terdengar tidak penting, tapi setidaknya saya mengerti bahasa pemrograman C dan C++.</p>
           </div>
         </div>
@@ -90,7 +93,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Relief pada dinding candi Borobudur merupakan salah satu contoh yang digunakan untuk menggambarkan kehidupan sang Buddha dan ajaran-ajarannya. Letak Candi Borobudur adalah di Jl. Badrawati, Kec. Borobudur, Magelang, Jawa Tengah.</p>
@@ -98,7 +101,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
               <img src="img/2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Kota Bekasi merupakan salah satu kota yang terdapat di provinsi Jawa Barat, Indonesia. Nama Bekasi berasal dari kata bagasasi yang artinya sama dengan candrabaga yang tertulis di dalam Prasasti Tugu era Kerajaan Tarumanegara, yaitu nama sungai yang melewati kota ini.</p>
@@ -106,7 +109,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Terminal 3 untuk gate 1-10 adalah untuk penerbangan internasional. Kalau untuk domestik ada di gate 11-28. Dan ini terdapat pada salah satu terminal di Bandar Udara internasional Soekarno-Hatta yang berada di Cengkareng, Jakarta.</p>
@@ -168,6 +171,13 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbx1BtYM0v_Q8UkVfYz4TK-ceYOYKvODyH5MRfBKAbcwVAKM7XL5PD8ofkbKW1fsgTlXzA/exec";
